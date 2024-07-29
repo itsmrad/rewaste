@@ -6,7 +6,12 @@ interface PhoneProps extends HTMLAttributes<HTMLDivElement> {
 	dark?: boolean;
 }
 
-const ProductDisplay = ({ imgSrc, className, dark = false, ...props }: PhoneProps) => {
+const ProductDisplay = ({
+	imgSrc,
+	className,
+	dark = false,
+	...props
+}: PhoneProps) => {
 	return (
 		<div
 			className={cn(
@@ -15,11 +20,7 @@ const ProductDisplay = ({ imgSrc, className, dark = false, ...props }: PhoneProp
 			)}
 			{...props}>
 			<img
-				src={
-					dark
-						? "/design-main.png"
-						: "/design-main.png"
-				}
+				src={dark ? "/design-main.png" : "/design-main.png"}
 				className="pointer-events-none z-50 select-none"
 				alt="product image"
 			/>

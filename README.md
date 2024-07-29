@@ -14,6 +14,10 @@ pnpm dev
 bun dev
 ```
 
+## How to Add Auth?
+
+Please visit Kinde.com, create a new project, select auth options and add the provided code to a newly created `.env` file located in the main directory.
+
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
 You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.

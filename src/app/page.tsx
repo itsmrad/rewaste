@@ -19,13 +19,15 @@ export default function Home() {
 								/>
 							</div>
 							<h1 className="relative w-fit tracking-tight text-balance mt-16 font-bold !leading-tight text-gray-900 text-5xl md:text-6xl lg:text-7xl">
-                                Your Moments on a{" "}
+								Your Moments on a{" "}
 								<span className="bg-primary px-2 text-white">Green</span> Canvas
 							</h1>
 							<p className="mt-8 text-lg lg:pr-10 max-w-prose text-center lg:text-left text-balance md:text-wrap">
-                            Capture your cherished moments with{" "}
+								Capture your cherished moments with{" "}
 								<span className="font-semibold">eco-friendly</span> elegance.
-							ReWaste allows you to transform recyclable materials into beautiful home decor, allowing you to protect the planet while adorning your space.
+								ReWaste allows you to transform recyclable materials into
+								beautiful home decor, allowing you to protect the planet while
+								adorning your space.
 							</p>
 
 							<ul className="mt-8 space-y-2 text-left font-medium flex flex-col items-center sm:items-start">
@@ -36,7 +38,7 @@ export default function Home() {
 									</li>
 									<li className="flex gap-1.5 items-center text-left">
 										<Check className="h-5 w-5 shrink-0 text-green-600" /> 6
-                                        months warrenty
+										months warrenty
 									</li>
 									<li className="flex gap-1.5 items-center text-left">
 										<Check className="h-5 w-5 shrink-0 text-green-600" />
@@ -96,7 +98,7 @@ export default function Home() {
 							<img
 								src="/your-image.png"
 								className="absolute w-40 lg:w-52 left-56 -top-20 
-                    select-none hidden sm:block lg:hidden xl:block"
+                                select-none hidden sm:block lg:hidden xl:block"
 							/>
 							<img
 								src="/line.png"
@@ -143,9 +145,11 @@ export default function Home() {
 								<p>
 									"I am really impressed with the quality of ReWaste’s products{" "}
 									<span className="p-0.5 bg-slate-800 text-white rounded-sm">
-                                        durable, and the design is stunning.
+										durable, and the design is stunning.
 									</span>
-									I have had it for over two months, and it still looks perfect, unlike my old decor that would lose its charm quickly. Definitely recommend ReWaste!"
+									I have had it for over two months, and it still looks perfect,
+									unlike my old decor that would lose its charm quickly.
+									Definitely recommend ReWaste!"
 								</p>
 							</div>
 							<div className="flex gap-4 mt-2">
@@ -173,9 +177,12 @@ export default function Home() {
 							</div>
 							<div className="text-lg leading-8">
 								<p>
-									"All my previous home decor would get scratched up pretty quickly since I tend to place them in high-traffic areas. But my ReWaste decor piece has held up remarkably well, with only a tiny scratch in the corner after six months.{" "}
+									"All my previous home decor would get scratched up pretty
+									quickly since I tend to place them in high-traffic areas. But
+									my ReWaste decor piece has held up remarkably well, with only
+									a tiny scratch in the corner after six months.{" "}
 									<span className="p-0.5 bg-slate-800 text-white rounded-sm">
-                                        It still looks fantastic.
+										It still looks fantastic.
 									</span>{" "}
 									Totally dig it!"
 								</p>
