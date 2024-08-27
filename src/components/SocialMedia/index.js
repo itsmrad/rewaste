@@ -12,23 +12,23 @@ import styles from './SocialMedia.module.sass'
 const socialMedia = [
   {
     Icon: FiTwitter,
-    url: 'https://twitter.com/cosmicjs',
+    url: 'https://twitter.com/',
   },
   {
     Icon: FiFacebook,
-    url: 'https://www.facebook.com/cosmicjs',
+    url: 'https://www.facebook.com/',
   },
   {
     Icon: FiLinkedin,
-    url: 'https://www.linkedin.com/company/cosmicjs/',
+    url: 'https://www.linkedin.com/',
   },
   {
     Icon: FiYoutube,
-    url: 'https://www.youtube.com/cosmicjs',
+    url: 'https://www.youtube.com/',
   },
   {
     Icon: FiSlack,
-    url: 'https://cosmcijs.slack.com',
+    url: 'https://www.slack.com',
   },
 ]
 
